@@ -1,0 +1,4 @@
+interface:
+  display_name: "Swift Design Practices"
+  short_description: "Swift implementation and refactoring design checks"
+  default_prompt: "Use $swift-design-practices to review this Swift implementation or refactoring for design risks."
