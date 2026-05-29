@@ -1,0 +1,4 @@
+interface:
+  display_name: "Software Design Router"
+  short_description: "Route design requests to focused skills"
+  default_prompt: "Use $software-design-router to route design requests to focused skills."

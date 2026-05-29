@@ -1,0 +1,4 @@
+interface:
+  display_name: "CQRS Decision"
+  short_description: "Decide whether CQRS is justified"
+  default_prompt: "Use $cqrs-decision to decide whether cqrs is justified."

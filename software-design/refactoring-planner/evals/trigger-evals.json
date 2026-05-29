@@ -1,0 +1,12 @@
+{
+  "skill": "refactoring-planner",
+  "policy": "implicit",
+  "should_trigger": [
+    "この神クラスを安全に分割するリファクタリング計画を作って。",
+    "Plan a behavior-preserving package split with characterization tests."
+  ],
+  "should_not_trigger": [
+    "新規機能のAPIをゼロから設計したい。",
+    "文章を自然な日本語にして。"
+  ]
+}

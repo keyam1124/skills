@@ -1,0 +1,12 @@
+{
+  "skill": "distributed-consistency-review",
+  "policy": "routed-or-explicit",
+  "should_trigger": [
+    "このイベント連携の冪等性とリトライ設計をレビューして。",
+    "Use $distributed-consistency-review for outbox/inbox failure modes."
+  ],
+  "should_not_trigger": [
+    "単一Value Objectの設計だけ見たい。",
+    "READMEを校正して。"
+  ]
+}

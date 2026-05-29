@@ -1,0 +1,7 @@
+interface:
+  display_name: "Cross Aggregate Consistency"
+  short_description: "Design consistency across aggregates"
+  default_prompt: "Use $cross-aggregate-consistency to design consistency across aggregates."
+
+policy:
+  allow_implicit_invocation: false

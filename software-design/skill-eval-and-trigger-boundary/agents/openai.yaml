@@ -1,0 +1,7 @@
+interface:
+  display_name: "Skill Eval and Trigger Boundary"
+  short_description: "Evaluate skill triggers and outputs"
+  default_prompt: "Use $skill-eval-and-trigger-boundary to evaluate skill triggers and outputs."
+
+policy:
+  allow_implicit_invocation: false

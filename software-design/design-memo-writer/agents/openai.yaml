@@ -1,0 +1,4 @@
+interface:
+  display_name: "Design Memo Writer"
+  short_description: "Write lightweight design memos"
+  default_prompt: "Use $design-memo-writer to write lightweight design memos."

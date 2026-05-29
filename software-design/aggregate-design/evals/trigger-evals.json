@@ -1,0 +1,12 @@
+{
+  "skill": "aggregate-design",
+  "policy": "implicit",
+  "should_trigger": [
+    "注文と支払いの集約境界をレビューして、不変条件を整理して。",
+    "Design the Aggregate boundaries and transaction consistency for this domain."
+  ],
+  "should_not_trigger": [
+    "Clean Architecture の層構造だけ見て。",
+    "REST APIのエラー形式だけ決めたい。"
+  ]
+}

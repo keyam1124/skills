@@ -1,0 +1,12 @@
+{
+  "skill": "aggregate-transaction-boundary",
+  "policy": "routed-or-explicit",
+  "should_trigger": [
+    "1 transactionで複数Aggregateを更新している箇所をレビューして。",
+    "Use $aggregate-transaction-boundary to decide strong vs eventual consistency."
+  ],
+  "should_not_trigger": [
+    "APIのversioningだけ相談したい。",
+    "用語揺れを抽出して。"
+  ]
+}

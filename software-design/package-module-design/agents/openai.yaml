@@ -1,0 +1,4 @@
+interface:
+  display_name: "Package Module Design"
+  short_description: "Design package and module boundaries"
+  default_prompt: "Use $package-module-design to design package and module boundaries."

@@ -1,0 +1,12 @@
+{
+  "skill": "ubiquitous-language-mining",
+  "policy": "routed-or-explicit",
+  "should_trigger": [
+    "仕様書とコードから用語揺れを抽出して。",
+    "Use $ubiquitous-language-mining to build a glossary candidate."
+  ],
+  "should_not_trigger": [
+    "集約のトランザクション境界だけ判断して。",
+    "API paginationだけ設計して。"
+  ]
+}

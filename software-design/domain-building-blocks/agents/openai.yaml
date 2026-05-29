@@ -1,0 +1,4 @@
+interface:
+  display_name: "Domain Building Blocks"
+  short_description: "Choose DDD tactical building blocks"
+  default_prompt: "Use $domain-building-blocks to choose ddd tactical building blocks."

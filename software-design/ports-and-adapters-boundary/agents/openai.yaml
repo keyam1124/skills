@@ -1,0 +1,7 @@
+interface:
+  display_name: "Ports and Adapters Boundary"
+  short_description: "Review ports and adapters boundaries"
+  default_prompt: "Use $ports-and-adapters-boundary to review ports and adapters boundaries."
+
+policy:
+  allow_implicit_invocation: false

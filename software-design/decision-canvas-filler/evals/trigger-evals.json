@@ -1,0 +1,12 @@
+{
+  "skill": "decision-canvas-filler",
+  "policy": "routed-or-explicit",
+  "should_trigger": [
+    "この情報からAggregate Design Canvasを埋めて。",
+    "Use $decision-canvas-filler to fill a Context Map canvas."
+  ],
+  "should_not_trigger": [
+    "発火境界のevalだけ作りたい。",
+    "エラー分類だけレビューして。"
+  ]
+}

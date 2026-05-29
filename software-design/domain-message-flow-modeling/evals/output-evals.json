@@ -1,0 +1,13 @@
+{
+  "skill": "domain-message-flow-modeling",
+  "required": [
+    "Message flow output must distinguish commands, domain events, integration events, and queries.",
+    "Separate evidence, inference, recommendation, and human confirmation when relevant.",
+    "Include tests or validation when the design affects implementation."
+  ],
+  "reject": [
+    "Generic design advice with no project evidence.",
+    "Unstated adoption of DDD, Clean Architecture, CQRS, Event Sourcing, or microservices.",
+    "Missing human confirmation items for business or organizational decisions."
+  ]
+}

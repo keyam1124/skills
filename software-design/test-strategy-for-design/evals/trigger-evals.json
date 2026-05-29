@@ -1,0 +1,12 @@
+{
+  "skill": "test-strategy-for-design",
+  "policy": "routed-or-explicit",
+  "should_trigger": [
+    "この設計判断に対応するテスト戦略を作って。",
+    "Use $test-strategy-for-design for characterization and contract tests."
+  ],
+  "should_not_trigger": [
+    "ADR本文だけ生成して。",
+    "用語揺れだけ抽出して。"
+  ]
+}

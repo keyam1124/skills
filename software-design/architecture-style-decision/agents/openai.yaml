@@ -1,0 +1,4 @@
+interface:
+  display_name: "Architecture Style Decision"
+  short_description: "Compare architecture style options"
+  default_prompt: "Use $architecture-style-decision to compare architecture style options."

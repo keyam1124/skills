@@ -1,0 +1,4 @@
+interface:
+  display_name: "ADR Writer"
+  short_description: "Write architecture decision records"
+  default_prompt: "Use $adr-writer to write architecture decision records."

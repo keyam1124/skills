@@ -1,0 +1,4 @@
+interface:
+  display_name: "Codebase Design Audit"
+  short_description: "Audit codebases for design risks"
+  default_prompt: "Use $codebase-design-audit to audit codebases for design risks."

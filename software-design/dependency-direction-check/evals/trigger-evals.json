@@ -1,0 +1,12 @@
+{
+  "skill": "dependency-direction-check",
+  "policy": "routed-or-explicit",
+  "should_trigger": [
+    "domainからinfrastructureへの依存がないか見て。",
+    "Use $dependency-direction-check to inspect forbidden imports."
+  ],
+  "should_not_trigger": [
+    "API contractを設計して。",
+    "ADRを書いて。"
+  ]
+}

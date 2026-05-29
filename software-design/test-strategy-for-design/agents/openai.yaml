@@ -1,0 +1,7 @@
+interface:
+  display_name: "Test Strategy for Design"
+  short_description: "Map design decisions to tests"
+  default_prompt: "Use $test-strategy-for-design to map design decisions to tests."
+
+policy:
+  allow_implicit_invocation: false

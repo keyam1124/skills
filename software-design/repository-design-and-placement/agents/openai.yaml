@@ -1,0 +1,7 @@
+interface:
+  display_name: "Repository Design and Placement"
+  short_description: "Design repository APIs and placement"
+  default_prompt: "Use $repository-design-and-placement to design repository apis and placement."
+
+policy:
+  allow_implicit_invocation: false

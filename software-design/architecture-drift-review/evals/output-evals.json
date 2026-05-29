@@ -1,0 +1,13 @@
+{
+  "skill": "architecture-drift-review",
+  "required": [
+    "Drift review must compare documented intent to current implementation and recommend doc or code action.",
+    "Separate evidence, inference, recommendation, and human confirmation when relevant.",
+    "Include tests or validation when the design affects implementation."
+  ],
+  "reject": [
+    "Generic design advice with no project evidence.",
+    "Unstated adoption of DDD, Clean Architecture, CQRS, Event Sourcing, or microservices.",
+    "Missing human confirmation items for business or organizational decisions."
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "skill": "software-design-router",
+  "policy": "implicit",
+  "should_trigger": [
+    "この機能の設計を実装前に整理して、どの観点でレビューすべきか決めて。",
+    "Review this codebase architecture and tell me which design skills apply."
+  ],
+  "should_not_trigger": [
+    "この文章の日本語だけ校正して。",
+    "この画像をリサイズして。"
+  ]
+}

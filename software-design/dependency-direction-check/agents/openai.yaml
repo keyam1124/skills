@@ -1,0 +1,7 @@
+interface:
+  display_name: "Dependency Direction Check"
+  short_description: "Check architectural dependency direction"
+  default_prompt: "Use $dependency-direction-check to check architectural dependency direction."
+
+policy:
+  allow_implicit_invocation: false

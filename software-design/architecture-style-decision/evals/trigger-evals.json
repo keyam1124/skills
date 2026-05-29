@@ -1,0 +1,12 @@
+{
+  "skill": "architecture-style-decision",
+  "policy": "implicit",
+  "should_trigger": [
+    "このプロダクトはClean、Hexagonal、Modular Monolithのどれが合う？",
+    "Compare architecture style options before we commit."
+  ],
+  "should_not_trigger": [
+    "Clean Architecture 採用済みなので層違反だけ見て。",
+    "集約境界だけレビューして。"
+  ]
+}

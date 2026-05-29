@@ -1,0 +1,12 @@
+{
+  "skill": "error-handling-design",
+  "policy": "implicit",
+  "should_trigger": [
+    "このAPIのエラー設計とResult/Exception方針を決めたい。",
+    "Review domain errors versus infrastructure errors in this service."
+  ],
+  "should_not_trigger": [
+    "集約境界の不変条件だけ見て。",
+    "Context Mapを作って。"
+  ]
+}

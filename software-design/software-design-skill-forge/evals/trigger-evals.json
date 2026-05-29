@@ -1,0 +1,12 @@
+{
+  "skill": "software-design-skill-forge",
+  "policy": "implicit",
+  "should_trigger": [
+    "新しい設計Skillを追加して、descriptionとevalも作って。",
+    "Improve this design skill trigger boundary using Skill-Creator."
+  ],
+  "should_not_trigger": [
+    "アプリの設計自体をレビューして。",
+    "ADR本文だけ作って。"
+  ]
+}

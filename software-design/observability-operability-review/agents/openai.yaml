@@ -1,0 +1,7 @@
+interface:
+  display_name: "Observability Operability Review"
+  short_description: "Review operability in design"
+  default_prompt: "Use $observability-operability-review to review operability in design."
+
+policy:
+  allow_implicit_invocation: false

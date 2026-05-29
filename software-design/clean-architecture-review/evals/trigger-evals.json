@@ -1,0 +1,12 @@
+{
+  "skill": "clean-architecture-review",
+  "policy": "implicit",
+  "should_trigger": [
+    "Clean Architecture 採用済みのこのコードの層違反をレビューして。",
+    "Review our use cases and adapters against the Clean Architecture dependency rule."
+  ],
+  "should_not_trigger": [
+    "一般的にどのアーキテクチャが良いか相談したい。",
+    "Hexagonal Architecture のPort設計だけ見て。"
+  ]
+}

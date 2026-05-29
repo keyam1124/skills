@@ -1,0 +1,12 @@
+{
+  "skill": "data-modeling-review",
+  "policy": "routed-or-explicit",
+  "should_trigger": [
+    "このDB schemaとdomain modelのズレをレビューして。",
+    "Use $data-modeling-review for read model and migration design."
+  ],
+  "should_not_trigger": [
+    "OO原則だけでクラスレビューして。",
+    "Context Mapだけ作りたい。"
+  ]
+}

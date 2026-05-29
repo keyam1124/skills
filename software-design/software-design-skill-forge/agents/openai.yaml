@@ -1,0 +1,4 @@
+interface:
+  display_name: "Software Design Skill Forge"
+  short_description: "Create and improve design skills"
+  default_prompt: "Use $software-design-skill-forge to create and improve design skills."

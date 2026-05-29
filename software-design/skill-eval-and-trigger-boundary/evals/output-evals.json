@@ -1,0 +1,13 @@
+{
+  "skill": "skill-eval-and-trigger-boundary",
+  "required": [
+    "Eval output must include should-trigger, should-not-trigger, output requirements, and collision notes.",
+    "Separate evidence, inference, recommendation, and human confirmation when relevant.",
+    "Include tests or validation when the design affects implementation."
+  ],
+  "reject": [
+    "Generic design advice with no project evidence.",
+    "Unstated adoption of DDD, Clean Architecture, CQRS, Event Sourcing, or microservices.",
+    "Missing human confirmation items for business or organizational decisions."
+  ]
+}

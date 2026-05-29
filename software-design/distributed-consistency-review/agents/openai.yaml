@@ -1,0 +1,7 @@
+interface:
+  display_name: "Distributed Consistency Review"
+  short_description: "Review distributed consistency risks"
+  default_prompt: "Use $distributed-consistency-review to review distributed consistency risks."
+
+policy:
+  allow_implicit_invocation: false

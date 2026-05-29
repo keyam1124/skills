@@ -1,0 +1,12 @@
+{
+  "skill": "adr-writer",
+  "policy": "implicit",
+  "should_trigger": [
+    "この設計判断をADRにして。",
+    "Write an ADR comparing the accepted API versioning approach and rejected alternatives."
+  ],
+  "should_not_trigger": [
+    "実装前の設計レビューだけして。",
+    "コードの循環依存だけ検出して。"
+  ]
+}

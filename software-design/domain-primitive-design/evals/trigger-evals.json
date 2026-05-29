@@ -1,0 +1,12 @@
+{
+  "skill": "domain-primitive-design",
+  "policy": "routed-or-explicit",
+  "should_trigger": [
+    "EmailやMoneyをstring/numberのままで良いかレビューして。",
+    "Use $domain-primitive-design to remove primitive obsession."
+  ],
+  "should_not_trigger": [
+    "Context Mapを作りたい。",
+    "Clean Architecture の層違反を見て。"
+  ]
+}

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Domain Service vs Application Service"
+  short_description: "Separate domain and use case services"
+  default_prompt: "Use $domain-service-vs-application-service to separate domain and use case services."
+
+policy:
+  allow_implicit_invocation: false

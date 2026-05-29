@@ -1,0 +1,4 @@
+interface:
+  display_name: "Event Sourcing Decision"
+  short_description: "Decide event sourcing trade-offs"
+  default_prompt: "Use $event-sourcing-decision to decide event sourcing trade-offs."

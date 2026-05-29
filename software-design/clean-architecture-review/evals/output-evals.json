@@ -1,0 +1,13 @@
+{
+  "skill": "clean-architecture-review",
+  "required": [
+    "Clean Architecture review must first confirm explicit adoption and must not trigger for generic architecture advice.",
+    "Separate evidence, inference, recommendation, and human confirmation when relevant.",
+    "Include tests or validation when the design affects implementation."
+  ],
+  "reject": [
+    "Generic design advice with no project evidence.",
+    "Unstated adoption of DDD, Clean Architecture, CQRS, Event Sourcing, or microservices.",
+    "Missing human confirmation items for business or organizational decisions."
+  ]
+}

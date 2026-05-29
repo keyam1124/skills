@@ -1,0 +1,4 @@
+interface:
+  display_name: "Error Handling Design"
+  short_description: "Design error semantics and handling"
+  default_prompt: "Use $error-handling-design to design error semantics and handling."
