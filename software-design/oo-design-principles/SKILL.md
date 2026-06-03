@@ -1,13 +1,12 @@
 ---
 name: oo-design-principles
 description: >
-  Use when explicitly invoked or routed to review object-oriented design principles such as SOLID, GRASP, cohesion, coupling, Tell Dont Ask, Law of Demeter, encapsulation, polymorphism, responsibility assignment, and avoiding procedural service objects.
+  Use when reviewing object-oriented design principles such as SOLID, GRASP, cohesion, coupling, Tell Dont Ask, Law of Demeter, encapsulation, polymorphism, responsibility assignment, and avoiding procedural service objects.
 ---
 
 # OO Design Principles
 
 Software Design Skill System の一部として、設計判断を evidence-driven に進める。
-通常は `software-design-router` または領域hubから呼び出す。明示的に `$oo-design-principles` と指定された場合も使う。
 
 ## Scope
 - Apply OO principles as practical checks, not slogans.

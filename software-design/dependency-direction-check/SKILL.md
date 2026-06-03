@@ -1,13 +1,12 @@
 ---
 name: dependency-direction-check
 description: >
-  Use when explicitly invoked or routed to inspect dependency direction violations: domain depending on infrastructure, use cases depending on controllers, feature modules depending on each other incorrectly, shared module bloat, framework imports leaking into core packages, or forbidden import rules.
+  Use when inspecting dependency direction violations: domain depending on infrastructure, use cases depending on controllers, feature modules depending on each other incorrectly, shared module bloat, framework imports leaking into core packages, or forbidden import rules.
 ---
 
 # Dependency Direction Check
 
 Software Design Skill System の一部として、設計判断を evidence-driven に進める。
-通常は `software-design-router` または領域hubから呼び出す。明示的に `$dependency-direction-check` と指定された場合も使う。
 
 ## Scope
 - Check dependency direction with concrete import or reference evidence.

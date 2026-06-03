@@ -1,13 +1,12 @@
 ---
 name: modular-monolith-boundary
 description: >
-  Use when explicitly invoked or routed to design Modular Monolith module boundaries, module data ownership, public module APIs, internal package hiding, inter-module communication, shared kernel scope, and whether boundaries could later support service extraction or should remain in-process.
+  Use when designing Modular Monolith module boundaries, module data ownership, public module APIs, internal package hiding, inter-module communication, shared kernel scope, and whether boundaries could later support service extraction or should remain in-process.
 ---
 
 # Modular Monolith Boundary
 
 Software Design Skill System の一部として、設計判断を evidence-driven に進める。
-通常は `software-design-router` または領域hubから呼び出す。明示的に `$modular-monolith-boundary` と指定された場合も使う。
 
 ## Scope
 - Design modules inside a monolith with clear ownership and APIs.

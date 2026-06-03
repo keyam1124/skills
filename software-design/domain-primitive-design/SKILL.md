@@ -1,13 +1,12 @@
 ---
 name: domain-primitive-design
 description: >
-  Use when explicitly invoked or routed to replace primitive obsession with domain primitives or value objects such as Email, Money, Quantity, DateRange, UserId, OrderId, status, typed IDs, parse dont validate boundaries, and always-valid domain modeling.
+  Use when replacing primitive obsession with domain primitives or value objects such as Email, Money, Quantity, DateRange, UserId, OrderId, status, typed IDs, parse dont validate boundaries, and always-valid domain modeling.
 ---
 
 # Domain Primitive Design
 
 Software Design Skill System の一部として、設計判断を evidence-driven に進める。
-通常は `software-design-router` または領域hubから呼び出す。明示的に `$domain-primitive-design` と指定された場合も使う。
 
 ## Scope
 - Make invalid states harder to represent with typed values.

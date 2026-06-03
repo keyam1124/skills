@@ -1,13 +1,12 @@
 ---
 name: subdomain-classification
 description: >
-  Use when explicitly invoked or routed to classify candidate domains as Core Domain, Supporting Domain, or Generic Domain. Produce evidence-backed candidates only; do not let the agent conclusively decide business strategy without human confirmation.
+  Use when classifying candidate domains as Core Domain, Supporting Domain, or Generic Domain. Produce evidence-backed candidates only; do not let the agent conclusively decide business strategy without human confirmation.
 ---
 
 # Subdomain Classification
 
 Software Design Skill System の一部として、設計判断を evidence-driven に進める。
-通常は `software-design-router` または領域hubから呼び出す。明示的に `$subdomain-classification` と指定された場合も使う。
 
 ## Scope
 - Classify subdomain candidates with uncertainty visible.

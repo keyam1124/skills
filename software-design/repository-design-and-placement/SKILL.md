@@ -1,13 +1,12 @@
 ---
 name: repository-design-and-placement
 description: >
-  Use when explicitly invoked or routed to design repositories: aggregate-root repositories, repository interface placement, ORM leakage, query read models, command repositories, save semantics, insert/update/upsert ambiguity, transaction ownership, and domain versus application layer boundaries.
+  Use when designing repositories: aggregate-root repositories, repository interface placement, ORM leakage, query read models, command repositories, save semantics, insert/update/upsert ambiguity, transaction ownership, and domain versus application layer boundaries.
 ---
 
 # Repository Design and Placement
 
 Software Design Skill System の一部として、設計判断を evidence-driven に進める。
-通常は `software-design-router` または領域hubから呼び出す。明示的に `$repository-design-and-placement` と指定された場合も使う。
 
 ## Scope
 - Design repository contracts around aggregate or use-case needs.

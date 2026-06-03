@@ -1,7 +1,7 @@
 ---
 name: software-design-skill-forge
 description: >
-  Use when creating, splitting, improving, or evaluating Software Design Skills, including trigger descriptions, references, templates, examples, evals, routed versus implicit policy, and skill-map updates. Always use the Skill-Creator skill first and follow its init_skill.py and quick_validate.py workflow.
+  Use when creating, splitting, improving, or evaluating Software Design Skills, including trigger descriptions, references, templates, examples, evals, selection policy, and skill-map updates. Always use the Skill-Creator skill first and follow its init_skill.py and quick_validate.py workflow.
 ---
 
 # Software Design Skill Forge
@@ -11,7 +11,7 @@ Software Design Skill System の一部として、設計判断を evidence-drive
 ## Scope
 - Create or improve Software Design Skills using Skill-Creator as the governing workflow.
 - Keep SKILL.md lean and move details into references or templates.
-- Maintain trigger boundaries and routed versus implicit policy.
+- Maintain trigger boundaries and selection policy.
 
 ## Inputs to Inspect
 - Requested design skill behavior, concrete trigger examples, current skill-map, existing related skills, and desired outputs
@@ -33,7 +33,7 @@ Software Design Skill System の一部として、設計判断を evidence-drive
 - Validation results
 
 ## Human Confirmation
-- Whether a new skill should be implicit, routed only, or folded into an existing hub skill.
+- Whether a new skill should be a broad entrypoint, narrow specialist, or folded into an existing hub skill.
 
 ## Do Not
 - Do not present unevidenced business rules, organizational boundaries, or strategy as facts.
@@ -42,5 +42,4 @@ Software Design Skill System の一部として、設計判断を evidence-drive
 
 ## Related Skills
 - `skill-eval-and-trigger-boundary`
-- `software-design-router`
 - `decision-canvas-filler`

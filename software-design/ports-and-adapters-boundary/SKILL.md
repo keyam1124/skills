@@ -1,13 +1,12 @@
 ---
 name: ports-and-adapters-boundary
 description: >
-  Use when explicitly invoked or routed to review Hexagonal Architecture or Ports and Adapters boundaries: inward ports, outward ports, adapters, SDK leakage, controller thickness, repository adapters, external API gateways, and keeping domain or use cases independent from infrastructure details.
+  Use when reviewing Hexagonal Architecture or Ports and Adapters boundaries: inward ports, outward ports, adapters, SDK leakage, controller thickness, repository adapters, external API gateways, and keeping domain or use cases independent from infrastructure details.
 ---
 
 # Ports and Adapters Boundary
 
 Software Design Skill System の一部として、設計判断を evidence-driven に進める。
-通常は `software-design-router` または領域hubから呼び出す。明示的に `$ports-and-adapters-boundary` と指定された場合も使う。
 
 ## Scope
 - Review port and adapter boundaries without confusing them with Clean Architecture enforcement.

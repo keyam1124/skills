@@ -43,7 +43,6 @@ Software Design Skill System の一部として、設計判断を evidence-drive
 - Do not hide uncertainty inside confident recommendations; list human confirmation items instead.
 
 ## Related Skills
-- `software-design-router`
 - `api-interface-design`
 - `domain-building-blocks`
 - `test-strategy-for-design`

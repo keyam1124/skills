@@ -1,18 +1,17 @@
 ---
 name: skill-eval-and-trigger-boundary
 description: >
-  Use when explicitly invoked or routed to test and improve Skill trigger boundaries, should-trigger prompts, should-not-trigger prompts, competing Skill descriptions, output quality checks, regression cases, baseline comparison, and routed versus implicit invocation policy.
+  Use when testing and improving Skill trigger boundaries, should-trigger prompts, should-not-trigger prompts, competing Skill descriptions, output quality checks, regression cases, baseline comparison, and selection policy.
 ---
 
 # Skill Eval and Trigger Boundary
 
 Software Design Skill System の一部として、設計判断を evidence-driven に進める。
-通常は `software-design-router` または領域hubから呼び出す。明示的に `$skill-eval-and-trigger-boundary` と指定された場合も使う。
 
 ## Scope
 - Evaluate whether a Skill fires for the right prompts and stays silent for adjacent prompts.
 - Improve descriptions and evals based on failures.
-- Protect against specialist skills competing with router or hub skills.
+- Protect against specialist skills competing with broad entrypoint or hub skills.
 
 ## Inputs to Inspect
 - Skill name, SKILL.md description, agents/openai.yaml policy, trigger examples, non-trigger examples, output examples, and regression cases
@@ -34,7 +33,7 @@ Software Design Skill System の一部として、設計判断を evidence-drive
 - Regression cases
 
 ## Human Confirmation
-- Whether a skill should be implicit, routed only, merged, or split.
+- Whether a skill should be a broad entrypoint, narrow specialist, merged, or split.
 
 ## Do Not
 - Do not present unevidenced business rules, organizational boundaries, or strategy as facts.
@@ -43,4 +42,3 @@ Software Design Skill System の一部として、設計判断を evidence-drive
 
 ## Related Skills
 - `software-design-skill-forge`
-- `software-design-router`

@@ -1,13 +1,12 @@
 ---
 name: decision-canvas-filler
 description: >
-  Use when explicitly invoked or routed to fill structured design canvases such as Bounded Context Canvas, Aggregate Design Canvas, Context Map, Domain Message Flow, Architecture Trade-off Matrix, human confirmation list, or design review report from available evidence.
+  Use when filling structured design canvases such as Bounded Context Canvas, Aggregate Design Canvas, Context Map, Domain Message Flow, Architecture Trade-off Matrix, human confirmation list, or design review report from available evidence.
 ---
 
 # Decision Canvas Filler
 
 Software Design Skill System の一部として、設計判断を evidence-driven に進める。
-通常は `software-design-router` または領域hubから呼び出す。明示的に `$decision-canvas-filler` と指定された場合も使う。
 
 ## Scope
 - Turn design evidence into a structured canvas.

@@ -1,13 +1,12 @@
 ---
 name: information-hiding-deep-modules
 description: >
-  Use when explicitly invoked or routed to review information hiding, deep modules, shallow modules, information leakage, temporal decomposition, pass-through methods, excessive configuration, implementation details in APIs, change amplification, cognitive load, or unclear module responsibilities.
+  Use when reviewing information hiding, deep modules, shallow modules, information leakage, temporal decomposition, pass-through methods, excessive configuration, implementation details in APIs, change amplification, cognitive load, or unclear module responsibilities.
 ---
 
 # Information Hiding Deep Modules
 
 Software Design Skill System の一部として、設計判断を evidence-driven に進める。
-通常は `software-design-router` または領域hubから呼び出す。明示的に `$information-hiding-deep-modules` と指定された場合も使う。
 
 ## Scope
 - Evaluate modules by interface simplicity versus implementation depth.

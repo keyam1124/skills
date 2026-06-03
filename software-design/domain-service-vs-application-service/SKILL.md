@@ -1,13 +1,12 @@
 ---
 name: domain-service-vs-application-service
 description: >
-  Use when explicitly invoked or routed to decide whether logic belongs in Entity, Value Object, Domain Service, Application Service, Use Case, handler, controller, or orchestration code. Use when domain rules leak into application services or services become procedural god classes.
+  Use when deciding whether logic belongs in Entity, Value Object, Domain Service, Application Service, Use Case, handler, controller, or orchestration code. Use when domain rules leak into application services or services become procedural god classes.
 ---
 
 # Domain Service vs Application Service
 
 Software Design Skill System の一部として、設計判断を evidence-driven に進める。
-通常は `software-design-router` または領域hubから呼び出す。明示的に `$domain-service-vs-application-service` と指定された場合も使う。
 
 ## Scope
 - Separate business rules from orchestration and side effects.

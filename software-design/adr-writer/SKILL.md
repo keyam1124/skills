@@ -43,4 +43,3 @@ Software Design Skill System の一部として、設計判断を evidence-drive
 - `design-memo-writer`
 - `architecture-drift-review`
 - `architecture-style-decision`
-- `software-design-router`

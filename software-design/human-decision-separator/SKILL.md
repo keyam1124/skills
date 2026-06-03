@@ -1,13 +1,12 @@
 ---
 name: human-decision-separator
 description: >
-  Use when explicitly invoked or routed by software-design-router to separate decisions an AI agent can infer from evidence from decisions that require human judgment: business invariants, bounded context ownership, eventual consistency tolerance, breaking changes, core domain classification, operational risk priority, or team complexity capacity.
+  Use when separating decisions an AI agent can infer from evidence from decisions that require human judgment: business invariants, bounded context ownership, eventual consistency tolerance, breaking changes, core domain classification, operational risk priority, or team complexity capacity.
 ---
 
 # Human Decision Separator
 
 Software Design Skill System の一部として、設計判断を evidence-driven に進める。
-通常は `software-design-router` または領域hubから呼び出す。明示的に `$human-decision-separator` と指定された場合も使う。
 
 ## Scope
 - Prevent the agent from silently deciding product, business, or organizational facts.
@@ -41,7 +40,6 @@ Software Design Skill System の一部として、設計判断を evidence-drive
 - Do not hide uncertainty inside confident recommendations; list human confirmation items instead.
 
 ## Related Skills
-- `software-design-router`
 - `aggregate-design`
 - `bounded-context-design`
 - `architecture-style-decision`

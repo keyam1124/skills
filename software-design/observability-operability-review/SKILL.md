@@ -1,13 +1,12 @@
 ---
 name: observability-operability-review
 description: >
-  Use when explicitly invoked or routed to review design-time operability: logs, metrics, traces, business events, SLOs, SLAs, alerts, dashboards, runbooks, audit logs, failure modes, backfills, replay, support workflows, and how maintainers will detect and recover from problems.
+  Use when reviewing design-time operability: logs, metrics, traces, business events, SLOs, SLAs, alerts, dashboards, runbooks, audit logs, failure modes, backfills, replay, support workflows, and how maintainers will detect and recover from problems.
 ---
 
 # Observability Operability Review
 
 Software Design Skill System の一部として、設計判断を evidence-driven に進める。
-通常は `software-design-router` または領域hubから呼び出す。明示的に `$observability-operability-review` と指定された場合も使う。
 
 ## Scope
 - Review whether a design can be operated after release.

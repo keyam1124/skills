@@ -1,13 +1,12 @@
 ---
 name: distributed-consistency-review
 description: >
-  Use when explicitly invoked or routed to review distributed consistency: exactly-once assumptions, at-least-once delivery, idempotency, ordering, retries, timeouts, duplicate events, outbox, inbox, saga, process manager, compensation, and cross-service failure modes.
+  Use when reviewing distributed consistency: exactly-once assumptions, at-least-once delivery, idempotency, ordering, retries, timeouts, duplicate events, outbox, inbox, saga, process manager, compensation, and cross-service failure modes.
 ---
 
 # Distributed Consistency Review
 
 Software Design Skill System の一部として、設計判断を evidence-driven に進める。
-通常は `software-design-router` または領域hubから呼び出す。明示的に `$distributed-consistency-review` と指定された場合も使う。
 
 ## Scope
 - Design for realistic distributed failure modes.

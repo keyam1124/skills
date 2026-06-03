@@ -1,13 +1,12 @@
 ---
 name: data-modeling-review
 description: >
-  Use when explicitly invoked or routed to review how domain models connect to RDB schemas, document models, event schemas, read models, indexes, data ownership, migrations, consistency, reporting requirements, and persistence shapes without letting storage structure dictate the domain model.
+  Use when reviewing how domain models connect to RDB schemas, document models, event schemas, read models, indexes, data ownership, migrations, consistency, reporting requirements, and persistence shapes without letting storage structure dictate the domain model.
 ---
 
 # Data Modeling Review
 
 Software Design Skill System の一部として、設計判断を evidence-driven に進める。
-通常は `software-design-router` または領域hubから呼び出す。明示的に `$data-modeling-review` と指定された場合も使う。
 
 ## Scope
 - Review persistence and read models against domain ownership and use cases.

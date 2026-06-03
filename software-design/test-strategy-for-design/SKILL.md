@@ -1,13 +1,12 @@
 ---
 name: test-strategy-for-design
 description: >
-  Use when explicitly invoked or routed to define tests that protect design decisions: domain model unit tests, use case tests, contract tests, integration tests, architecture tests, characterization tests, golden master tests, property-based tests, or event-driven flow tests.
+  Use when defining tests that protect design decisions: domain model unit tests, use case tests, contract tests, integration tests, architecture tests, characterization tests, golden master tests, property-based tests, or event-driven flow tests.
 ---
 
 # Test Strategy for Design
 
 Software Design Skill System の一部として、設計判断を evidence-driven に進める。
-通常は `software-design-router` または領域hubから呼び出す。明示的に `$test-strategy-for-design` と指定された場合も使う。
 
 ## Scope
 - Connect design choices to concrete verification.

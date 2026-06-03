@@ -1,13 +1,12 @@
 ---
 name: context-map-design
 description: >
-  Use when explicitly invoked or routed to design a DDD Context Map and relationships such as Partnership, Shared Kernel, Customer/Supplier, Conformist, Anti-Corruption Layer, Open Host Service, Published Language, or Separate Ways. Produce Mermaid plus a relationship table.
+  Use when designing a DDD Context Map and relationships such as Partnership, Shared Kernel, Customer/Supplier, Conformist, Anti-Corruption Layer, Open Host Service, Published Language, or Separate Ways. Produce Mermaid plus a relationship table.
 ---
 
 # Context Map Design
 
 Software Design Skill System の一部として、設計判断を evidence-driven に進める。
-通常は `software-design-router` または領域hubから呼び出す。明示的に `$context-map-design` と指定された場合も使う。
 
 ## Scope
 - Map relationships between bounded contexts and external systems.

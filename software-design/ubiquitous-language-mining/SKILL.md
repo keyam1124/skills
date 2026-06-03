@@ -1,13 +1,12 @@
 ---
 name: ubiquitous-language-mining
 description: >
-  Use when explicitly invoked or routed to extract ubiquitous language candidates from requirements, conversations, issues, docs, code, APIs, database names, or tests. Detect term drift, synonyms, homonyms, mismatches between business terms and code names, and words that require domain expert confirmation.
+  Use when extracting ubiquitous language candidates from requirements, conversations, issues, docs, code, APIs, database names, or tests. Detect term drift, synonyms, homonyms, mismatches between business terms and code names, and words that require domain expert confirmation.
 ---
 
 # Ubiquitous Language Mining
 
 Software Design Skill System の一部として、設計判断を evidence-driven に進める。
-通常は `software-design-router` または領域hubから呼び出す。明示的に `$ubiquitous-language-mining` と指定された場合も使う。
 
 ## Scope
 - Extract domain vocabulary grounded in source artifacts.

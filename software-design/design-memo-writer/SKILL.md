@@ -42,4 +42,3 @@ Software Design Skill System の一部として、設計判断を evidence-drive
 - `adr-writer`
 - `pre-implementation-design-review`
 - `refactoring-planner`
-- `software-design-router`

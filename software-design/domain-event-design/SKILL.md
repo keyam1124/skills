@@ -1,13 +1,12 @@
 ---
 name: domain-event-design
 description: >
-  Use when explicitly invoked or routed to design Domain Events, Integration Events, Event Sourcing events, event names, event granularity, past-tense naming, payload fields, outbox, idempotency, retry, ordering, schema evolution, and conversion between internal and published events.
+  Use when designing Domain Events, Integration Events, Event Sourcing events, event names, event granularity, past-tense naming, payload fields, outbox, idempotency, retry, ordering, schema evolution, and conversion between internal and published events.
 ---
 
 # Domain Event Design
 
 Software Design Skill System の一部として、設計判断を evidence-driven に進める。
-通常は `software-design-router` または領域hubから呼び出す。明示的に `$domain-event-design` と指定された場合も使う。
 
 ## Scope
 - Separate domain events from integration and stored events.

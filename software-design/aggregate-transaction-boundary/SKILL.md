@@ -1,13 +1,12 @@
 ---
 name: aggregate-transaction-boundary
 description: >
-  Use when explicitly invoked or routed to review aggregate transaction boundaries, one transaction one aggregate rules, locking, strong consistency, eventual consistency, sagas, process managers, database constraints, or whether multiple aggregate updates should be split.
+  Use when reviewing aggregate transaction boundaries, one transaction one aggregate rules, locking, strong consistency, eventual consistency, sagas, process managers, database constraints, or whether multiple aggregate updates should be split.
 ---
 
 # Aggregate Transaction Boundary
 
 Software Design Skill System の一部として、設計判断を evidence-driven に進める。
-通常は `software-design-router` または領域hubから呼び出す。明示的に `$aggregate-transaction-boundary` と指定された場合も使う。
 
 ## Scope
 - Evaluate consistency and transaction boundaries around aggregates.

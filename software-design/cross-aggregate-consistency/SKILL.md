@@ -1,13 +1,12 @@
 ---
 name: cross-aggregate-consistency
 description: >
-  Use when explicitly invoked or routed to design consistency across aggregates, such as stock and order, payment and order confirmation, user deletion and related data, strong consistency versus eventual consistency, compensating actions, corrective policies, or cross-aggregate invariants.
+  Use when designing consistency across aggregates, such as stock and order, payment and order confirmation, user deletion and related data, strong consistency versus eventual consistency, compensating actions, corrective policies, or cross-aggregate invariants.
 ---
 
 # Cross Aggregate Consistency
 
 Software Design Skill System の一部として、設計判断を evidence-driven に進める。
-通常は `software-design-router` または領域hubから呼び出す。明示的に `$cross-aggregate-consistency` と指定された場合も使う。
 
 ## Scope
 - Clarify whether a cross-aggregate rule is a true invariant or a policy.

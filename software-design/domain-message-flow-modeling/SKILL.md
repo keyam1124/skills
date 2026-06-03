@@ -1,13 +1,12 @@
 ---
 name: domain-message-flow-modeling
 description: >
-  Use when explicitly invoked or routed to model command, event, query, domain event, integration event, and cross-context message flow. Decide which context receives commands, which events are published, whether sync calls or events fit, and where query/read models are built.
+  Use when modeling command, event, query, domain event, integration event, and cross-context message flow. Decide which context receives commands, which events are published, whether sync calls or events fit, and where query/read models are built.
 ---
 
 # Domain Message Flow Modeling
 
 Software Design Skill System の一部として、設計判断を evidence-driven に進める。
-通常は `software-design-router` または領域hubから呼び出す。明示的に `$domain-message-flow-modeling` と指定された場合も使う。
 
 ## Scope
 - Make domain message flow explicit across contexts or modules.
