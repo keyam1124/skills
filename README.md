@@ -40,6 +40,7 @@ Routed or explicit specialist skills set `policy.allow_implicit_invocation: fals
 ## Existing Non-Software-Design Skills
 
 - `swift-design-practices`
+- `value-object-design`
 - `polymorphic-branch-refactoring`
 - `polishing-documents`
 
