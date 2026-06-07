@@ -1,4 +1,0 @@
-interface:
-  display_name: "API Interface Design"
-  short_description: "Design APIs and public interfaces"
-  default_prompt: "Use $api-interface-design to design apis and public interfaces."

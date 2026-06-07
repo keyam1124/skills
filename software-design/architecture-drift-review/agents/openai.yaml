@@ -1,4 +1,0 @@
-interface:
-  display_name: "Architecture Drift Review"
-  short_description: "Compare architecture intent and code"
-  default_prompt: "Use $architecture-drift-review to compare architecture intent and code."

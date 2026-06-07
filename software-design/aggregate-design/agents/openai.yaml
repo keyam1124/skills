@@ -1,4 +1,0 @@
-interface:
-  display_name: "Aggregate Design"
-  short_description: "Design aggregate boundaries and rules"
-  default_prompt: "Use $aggregate-design to design aggregate boundaries and rules."

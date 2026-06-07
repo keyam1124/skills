@@ -1,4 +1,0 @@
-interface:
-  display_name: "Bounded Context Design"
-  short_description: "Design bounded context boundaries"
-  default_prompt: "Use $bounded-context-design to design bounded context boundaries."

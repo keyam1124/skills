@@ -1,7 +1,0 @@
-interface:
-  display_name: "Information Hiding Deep Modules"
-  short_description: "Review information hiding and modules"
-  default_prompt: "Use $information-hiding-deep-modules to review information hiding and modules."
-
-policy:
-  allow_implicit_invocation: false

@@ -1,4 +1,0 @@
-interface:
-  display_name: "Refactoring Planner"
-  short_description: "Plan safe design refactoring work"
-  default_prompt: "Use $refactoring-planner to plan safe design refactoring work."

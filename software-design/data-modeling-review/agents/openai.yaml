@@ -1,7 +1,0 @@
-interface:
-  display_name: "Data Modeling Review"
-  short_description: "Review data and domain model fit"
-  default_prompt: "Use $data-modeling-review to review data and domain model fit."
-
-policy:
-  allow_implicit_invocation: false

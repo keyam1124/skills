@@ -1,7 +1,0 @@
-interface:
-  display_name: "Subdomain Classification"
-  short_description: "Classify core and supporting domains"
-  default_prompt: "Use $subdomain-classification to classify core and supporting domains."
-
-policy:
-  allow_implicit_invocation: false

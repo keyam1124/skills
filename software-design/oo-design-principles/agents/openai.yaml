@@ -1,7 +1,0 @@
-interface:
-  display_name: "OO Design Principles"
-  short_description: "Apply OO design principles pragmatically"
-  default_prompt: "Use $oo-design-principles to apply oo design principles pragmatically."
-
-policy:
-  allow_implicit_invocation: false

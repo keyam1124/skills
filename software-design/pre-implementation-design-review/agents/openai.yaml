@@ -1,4 +1,0 @@
-interface:
-  display_name: "Pre-Implementation Design Review"
-  short_description: "Review design before implementation"
-  default_prompt: "Use $pre-implementation-design-review to review design before implementation."

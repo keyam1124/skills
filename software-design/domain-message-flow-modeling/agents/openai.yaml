@@ -1,7 +1,0 @@
-interface:
-  display_name: "Domain Message Flow Modeling"
-  short_description: "Model command event query flows"
-  default_prompt: "Use $domain-message-flow-modeling to model command event query flows."
-
-policy:
-  allow_implicit_invocation: false

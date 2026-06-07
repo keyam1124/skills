@@ -1,7 +1,0 @@
-interface:
-  display_name: "Human Decision Separator"
-  short_description: "Separate agent and human decisions"
-  default_prompt: "Use $human-decision-separator to separate agent and human decisions."
-
-policy:
-  allow_implicit_invocation: false

@@ -1,7 +1,0 @@
-interface:
-  display_name: "Decision Canvas Filler"
-  short_description: "Fill reusable design canvases"
-  default_prompt: "Use $decision-canvas-filler to fill reusable design canvases."
-
-policy:
-  allow_implicit_invocation: false

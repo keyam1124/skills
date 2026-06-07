@@ -1,7 +1,0 @@
-interface:
-  display_name: "Modular Monolith Boundary"
-  short_description: "Design modular monolith boundaries"
-  default_prompt: "Use $modular-monolith-boundary to design modular monolith boundaries."
-
-policy:
-  allow_implicit_invocation: false

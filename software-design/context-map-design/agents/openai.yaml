@@ -1,7 +1,0 @@
-interface:
-  display_name: "Context Map Design"
-  short_description: "Design context maps and relations"
-  default_prompt: "Use $context-map-design to design context maps and relations."
-
-policy:
-  allow_implicit_invocation: false

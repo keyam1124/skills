@@ -1,7 +1,0 @@
-interface:
-  display_name: "Aggregate Transaction Boundary"
-  short_description: "Review aggregate transaction boundaries"
-  default_prompt: "Use $aggregate-transaction-boundary to review aggregate transaction boundaries."
-
-policy:
-  allow_implicit_invocation: false

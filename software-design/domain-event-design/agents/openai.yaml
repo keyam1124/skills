@@ -1,7 +1,0 @@
-interface:
-  display_name: "Domain Event Design"
-  short_description: "Design domain and integration events"
-  default_prompt: "Use $domain-event-design to design domain and integration events."
-
-policy:
-  allow_implicit_invocation: false

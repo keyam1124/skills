@@ -1,7 +1,0 @@
-interface:
-  display_name: "Domain Primitive Design"
-  short_description: "Design domain primitives and value types"
-  default_prompt: "Use $domain-primitive-design to design domain primitives and value types."
-
-policy:
-  allow_implicit_invocation: false
