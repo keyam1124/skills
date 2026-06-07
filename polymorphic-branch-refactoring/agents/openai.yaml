@@ -1,4 +1,0 @@
-interface:
-  display_name: "Polymorphic Branch Refactoring"
-  short_description: "重複条件分岐を多態性とStrategyへ移す設計支援"
-  default_prompt: "Use $polymorphic-branch-refactoring to refactor repeated conditionals into language-appropriate interface and strategy implementations."

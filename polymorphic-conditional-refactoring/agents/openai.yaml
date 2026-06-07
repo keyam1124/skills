@@ -1,0 +1,4 @@
+interface:
+  display_name: "Polymorphic Conditional Refactoring"
+  short_description: "Refactor repeated conditionals into behavior-focused models"
+  default_prompt: "Use $polymorphic-conditional-refactoring to refactor repeated mode, kind, status, or type conditionals into behavior-focused models."
