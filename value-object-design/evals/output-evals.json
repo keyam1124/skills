@@ -1,0 +1,21 @@
+[
+  {
+    "prompt": "注文APIのuserId, orderId, amount, currency, memoをどこまで型にすべきか判断して",
+    "expected_output_traits": [
+      "Evidence, Inference, Decision, Human confirmationを分ける",
+      "userId/orderIdはtyped idまたはnewtype候補にする",
+      "amount/currencyは複合Value Object候補にする",
+      "memoは不変条件がなければprimitive維持候補にする",
+      "API/DB境界ではDTOまたはprimitive表現を保ちアプリケーション層でparseする"
+    ]
+  },
+  {
+    "prompt": "既存コードの全StringをValue Object化する方針で進めたい",
+    "expected_output_traits": [
+      "全プリミティブの機械的ラップを止める",
+      "不変条件、取り違えリスク、複合値、ドメイン操作で優先順位を付ける",
+      "段階的にtyped id, smart constructor, 振る舞い付きValue Objectを選ぶ",
+      "移行コストと既存API互換性をHuman confirmationに残す"
+    ]
+  }
+]

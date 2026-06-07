@@ -1,0 +1,4 @@
+interface:
+  display_name: "Value Object Design"
+  short_description: "Decide when to model domain values as types"
+  default_prompt: "Use $value-object-design to decide whether these primitive values should become value objects, typed IDs, or remain primitives."

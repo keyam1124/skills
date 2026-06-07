@@ -1,0 +1,27 @@
+[
+  {
+    "prompt": "このamountとcurrencyはValue Objectにした方がいい？",
+    "should_trigger": true,
+    "reason": "金額と通貨の複合値判断"
+  },
+  {
+    "prompt": "UserIdとOrderIdがどちらもStringだけど、typed idを入れるべき？",
+    "should_trigger": true,
+    "reason": "同型IDの取り違え防止判断"
+  },
+  {
+    "prompt": "このメールアドレスのvalidationをどこに置くべきかレビューして",
+    "should_trigger": true,
+    "reason": "境界parseと不変条件の配置判断"
+  },
+  {
+    "prompt": "SwiftUIのViewが大きいので分割方針を見て",
+    "should_trigger": false,
+    "reason": "Value Object判断ではなくSwiftUI構造レビュー"
+  },
+  {
+    "prompt": "この文章を自然な日本語に磨いて",
+    "should_trigger": false,
+    "reason": "文章校正でありドメイン値設計ではない"
+  }
+]
